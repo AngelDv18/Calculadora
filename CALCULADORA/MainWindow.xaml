@@ -165,3 +165,54 @@
         </Button>
     </Grid>
 </Window>
+<!--<Window.Resources>
+
+        -->
+<!-- Propiedades por defecto de los botones -->
+<!--
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#FF4AC5F1"/>
+            <Setter Property="Margin" Value="2"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="FontSize" Value="20"/>
+            <EventSetter Event="Click" Handler="ButtonClick"/>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="-164,-136,-160,0" Width="NaN" Height="631" VerticalAlignment="Top" RenderTransformOrigin="0.501,0.5">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Calculadora.jpeg"/>
+        </Grid.Background>
+        <ProgressBar RenderTransformOrigin="0.5,0.5" Margin="814,540,178,194">
+            <ProgressBar.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.079"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ProgressBar.RenderTransform>
+        </ProgressBar>
+        <TextBox x:Name="TxtBoxResult" HorizontalAlignment="Left" Height="62" Margin="210,135,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="247"/>
+        <Button x:Name="" Content="C" HorizontalAlignment="Left" Height="39" Margin="199,287,0,0" VerticalAlignment="Top" Width="54" FontSize="20" Background="{x:Null}"/>
+        <Button Content="9" HorizontalAlignment="Left" Height="40" Margin="341,331,0,0" VerticalAlignment="Top" Width="54" FontSize="20"/>
+        <Button Content="%" HorizontalAlignment="Left" Height="39" Margin="270,287,0,0" VerticalAlignment="Top" Width="53" FontSize="20"/>
+        <Button Content="7" HorizontalAlignment="Left" Height="40" Margin="199,331,0,0" VerticalAlignment="Top" Width="54" RenderTransformOrigin="-0.113,0.533" FontSize="20"/>
+        <Button Content="X" HorizontalAlignment="Left" Height="39" Margin="341,287,0,0" VerticalAlignment="Top" Width="54" FontSize="20"/>
+        <Button Content="8" HorizontalAlignment="Left" Height="40" Margin="270,331,0,0" VerticalAlignment="Top" Width="53" FontSize="20"/>
+        <Button Content="/" HorizontalAlignment="Left" Height="39" Margin="407,287,0,0" VerticalAlignment="Top" Width="54" RenderTransformOrigin="-0.778,0.702" FontSize="20"/>
+        <Button Content="*" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="58" Margin="407,331,0,0" FontSize="20"/>
+        <Button Content="4" HorizontalAlignment="Left" Height="40" Margin="199,376,0,0" VerticalAlignment="Top" Width="54" FontSize="20"/>
+        <Button Content="3" HorizontalAlignment="Left" Height="39" Margin="341,421,0,0" VerticalAlignment="Top" Width="54" FontSize="20"/>
+        <Button Content="5" HorizontalAlignment="Left" Height="40" Margin="270,376,0,0" VerticalAlignment="Top" Width="53" FontSize="20"/>
+        <Button x:Name="BtnN1_Click" Content="1" HorizontalAlignment="Left" Height="39" Margin="199,421,0,0" VerticalAlignment="Top" Width="54" RenderTransformOrigin="-0.113,0.533" FontSize="20"/>
+        <Button Content="6" HorizontalAlignment="Left" Height="40" Margin="341,376,0,0" VerticalAlignment="Top" Width="54" FontSize="20" Background="#FF02C6E6"/>
+        <Button Content="2" HorizontalAlignment="Left" Height="39" Margin="270,421,0,0" VerticalAlignment="Top" Width="53" FontSize="20"/>
+        <Button Content="-" HorizontalAlignment="Left" Height="40" Margin="407,376,0,0" VerticalAlignment="Top" Width="54" RenderTransformOrigin="-0.778,0.702" FontSize="20"/>
+        <Button Content="+" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="58" Margin="407,421,0,0" FontSize="20"/>
+        <Button Content="." HorizontalAlignment="Left" Height="39" Margin="341,465,0,0" VerticalAlignment="Top" Width="54" FontSize="22"/>
+        <Button Content="00" HorizontalAlignment="Left" Height="39" Margin="199,465,0,0" VerticalAlignment="Top" Width="54" RenderTransformOrigin="-0.113,0.533" FontSize="20"/>
+        <Button Content="0" HorizontalAlignment="Left" Height="39" Margin="270,465,0,0" VerticalAlignment="Top" Width="53" FontSize="20"/>
+        <Button Content="=" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="58" Margin="407,465,0,0" FontSize="22" Background="{x:Null}"/>
+
+    </Grid>
+</Window>-->
