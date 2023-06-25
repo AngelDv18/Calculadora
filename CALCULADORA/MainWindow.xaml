@@ -18,7 +18,7 @@
                 </LinearGradientBrush>
             </TextBox.Background>
         </TextBox>
-        <Button x:Name="BtnN7" Content="7" HorizontalAlignment="Left" Height="52" Margin="12,0,0,0" VerticalAlignment="Center" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN7_Click">
+        <Button x:Name="BtnN7" Content="7" HorizontalAlignment="Left" Height="52" Margin="12,204,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN7_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE64809"/>
@@ -26,7 +26,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnN8" Content="8" HorizontalAlignment="Left" Height="52" Margin="87,0,0,0" VerticalAlignment="Center" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN8_Click">
+        <Button x:Name="BtnN8" Content="8" HorizontalAlignment="Left" Height="52" Margin="87,204,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN8_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE64809"/>
@@ -34,7 +34,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnN9" Content="9" HorizontalAlignment="Left" Height="52" Margin="160,0,0,0" VerticalAlignment="Center" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN9_Click">
+        <Button x:Name="BtnN9" Content="9" HorizontalAlignment="Left" Height="52" Margin="160,204,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN9_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE64809"/>
@@ -42,7 +42,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnDiv" Content="/" HorizontalAlignment="Left" Height="52" Margin="234,141,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnDiv_Click">
+        <Button x:Name="BtnDiv" Content="/" HorizontalAlignment="Left" Height="52" Margin="234,143,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnDiv_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF6B09E6"/>
@@ -50,7 +50,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnN4" Content="4" HorizontalAlignment="Left" Height="52" Margin="12,257,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN4_Click">
+        <Button x:Name="BtnN4" Content="4" HorizontalAlignment="Left" Height="52" Margin="12,259,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN4_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE64809"/>
@@ -58,7 +58,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnN5" Content="5" HorizontalAlignment="Left" Height="52" Margin="87,257,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN5_Click">
+        <Button x:Name="BtnN5" Content="5" HorizontalAlignment="Left" Height="52" Margin="87,259,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN5_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE64809"/>
@@ -66,7 +66,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnN6" Content="6" HorizontalAlignment="Left" Height="52" Margin="160,257,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN6_Click">
+        <Button x:Name="BtnN6" Content="6" HorizontalAlignment="Left" Height="52" Margin="160,259,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN6_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE64809"/>
@@ -74,7 +74,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnMult" Content="x" HorizontalAlignment="Left" Height="52" Margin="234,0,0,0" VerticalAlignment="Center" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnMult_Click">
+        <Button x:Name="BtnMult" Content="x" HorizontalAlignment="Left" Height="52" Margin="234,204,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnMult_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF6B09E6"/>
@@ -82,7 +82,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnN1" Content="1" HorizontalAlignment="Left" Height="52" Margin="12,313,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN1_Click">
+        <Button x:Name="BtnN1" Content="1" HorizontalAlignment="Left" Height="52" Margin="12,315,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN1_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE64809"/>
@@ -90,7 +90,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnN2" Content="2" HorizontalAlignment="Left" Height="52" Margin="87,313,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN2_Click">
+        <Button x:Name="BtnN2" Content="2" HorizontalAlignment="Left" Height="52" Margin="87,315,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN2_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE64809"/>
@@ -98,7 +98,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnN3" Content="3" HorizontalAlignment="Left" Height="52" Margin="160,313,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN3_Click">
+        <Button x:Name="BtnN3" Content="3" HorizontalAlignment="Left" Height="52" Margin="160,315,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnN3_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE64809"/>
@@ -106,7 +106,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnResta" Content="-" HorizontalAlignment="Left" Height="52" Margin="234,257,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnResta_Click">
+        <Button x:Name="BtnResta" Content="-" HorizontalAlignment="Left" Height="52" Margin="234,259,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnResta_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF6B09E6"/>
@@ -114,7 +114,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="ButtonN0" Content="0" HorizontalAlignment="Left" Height="52" Margin="12,370,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="ButtonN0_Click">
+        <Button x:Name="ButtonN0" Content="0" HorizontalAlignment="Left" Height="52" Margin="12,370,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="ButtonN0_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE64809"/>
@@ -122,7 +122,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnDot" Content="." HorizontalAlignment="Left" Height="52" Margin="87,370,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnDot_Click">
+        <Button x:Name="BtnDot" Content="." HorizontalAlignment="Left" Height="52" Margin="87,370,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnDot_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF6B09E6"/>
@@ -130,8 +130,8 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnResul" Content="=" HorizontalAlignment="Left" Height="52" Margin="160,370,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnResul_Click" Background="{x:Null}"/>
-        <Button x:Name="BtnSuma" Content="+" HorizontalAlignment="Left" Height="109" Margin="234,313,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnSuma_Click">
+        <Button x:Name="BtnResul" Content="=" HorizontalAlignment="Left" Height="52" Margin="160,370,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnResul_Click" Background="{x:Null}"/>
+        <Button x:Name="BtnSuma" Content="+" HorizontalAlignment="Left" Height="109" Margin="234,315,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnSuma_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF6B09E6"/>
@@ -139,7 +139,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnBorrar" Content="C" HorizontalAlignment="Left" Height="52" Margin="87,141,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnBorrar_Click">
+        <Button x:Name="BtnBorrar" Content="C" HorizontalAlignment="Left" Height="52" Margin="87,143,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnBorrar_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF6B09E6"/>
@@ -147,7 +147,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnBorrarN" Content="❌" HorizontalAlignment="Left" Height="52" Margin="12,141,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black" Click="BtnBorrarN_Click">
+        <Button x:Name="BtnBorrarN" Content="❌" HorizontalAlignment="Left" Height="52" Margin="12,143,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnBorrarN_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF6B09E6" Offset="1"/>
@@ -155,7 +155,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="BtnPorcent" Content="%" HorizontalAlignment="Left" Height="52" Margin="160,141,0,0" VerticalAlignment="Top" Width="68" BorderBrush="#FF00FFF9" FontSize="36" FontFamily="Segoe UI Black">
+        <Button x:Name="BtnPorcent" Content="%" HorizontalAlignment="Left" Height="52" Margin="160,143,0,0" VerticalAlignment="Top" Width="68" FontSize="36" FontFamily="Segoe UI Black" Click="BtnPorcent_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF6B09E6"/>

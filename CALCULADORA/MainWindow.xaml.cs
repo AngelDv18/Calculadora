@@ -159,14 +159,23 @@ namespace CALCULADORA
         {
             try
             {
-                char valor = '.';
-                TxtBoxResult.Text += valor.ToString();
+                string valor = ".";
+                TxtBoxResult.Text += valor;
             }
             catch (Exception)
             {
-
                 throw (new Exception("ERROR"));
             }
+            //try
+            //{
+            //    char valor = '.';
+            //    TxtBoxResult.Text += valor.ToString();
+            //}
+            //catch (Exception)
+            //{
+
+            //    throw (new Exception("ERROR"));
+            //}
         }
 
         private void BtnBorrarN_Click(object sender, RoutedEventArgs e)
@@ -250,6 +259,27 @@ namespace CALCULADORA
                 throw (new Exception("ERROR"));
             }
         }
+        private void BtnPorcent_Click(object sender, RoutedEventArgs e)
+        {
+            if (double.TryParse(TxtBoxResult.Text, out double Value))
+            {
+                // Calcula el porcentaje (por ejemplo, 2% = 0.02)
+                double porcentage = Value * 1 / 100;
+
+                // Actualiza el valor de la calculadora con el resultado del porcentaje
+                TxtBoxResult.Text = porcentage.ToString();
+            }
+            //if (double.TryParse(TxtBoxResult.Text, out double Porcent) && double.TryParse(TxtBoxResult.Text, out double value))
+            //{
+            //    double resultado = value *  (Porcent / 100);
+            //    TxtBoxResult.Text = resultado.ToString();
+            //}
+            //else
+            //{
+            //    // Manejar el caso en el que los valores ingresados no sean números válidos.
+            //    TxtBoxResult.Text = "Error";
+            //}
+        }
         private void BtnResul_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -275,11 +305,11 @@ namespace CALCULADORA
         }
         private bool IsOperator(string PosOperador)
         {
-            if (PosOperador == "+" || PosOperador == "-" || PosOperador == "*" || PosOperador == "/")
+            if (PosOperador == "+" || PosOperador == "-" || PosOperador == "*" || PosOperador == "/" || PosOperador == "%")
             {
                 return true;
             }
-            return PosOperador == "+" || PosOperador == "-" || PosOperador == "*" || PosOperador == "/";
+            return PosOperador == "+" || PosOperador == "-" || PosOperador == "*" || PosOperador == "/" || PosOperador == "%";
         }
         private void HandleOperators(string value)
         {
@@ -290,7 +320,7 @@ namespace CALCULADORA
         }
         private bool ContainsOtherOperators(string screenContent)
         {
-            return screenContent.Contains("+") || screenContent.Contains("-") || screenContent.Contains("*") || screenContent.Contains("/");
+            return screenContent.Contains("+") || screenContent.Contains("-") || screenContent.Contains("*") || screenContent.Contains("/") || screenContent.Contains("%");
         }
         private string FindOperador(string screenContent)
         {
@@ -322,6 +352,9 @@ namespace CALCULADORA
                     case "/":
                         TxtBoxResult.Text = Div();
                         break;
+                    case "%":
+                        TxtBoxResult.Text = Porcent();
+                        break;
                 }
             }
         }
@@ -330,28 +363,36 @@ namespace CALCULADORA
             string[] numbers = TxtBoxResult.Text.Split("+");
             double.TryParse(numbers[0], out double n1);
             double.TryParse(numbers[1], out double n2);
-            return Math.Round(n1 + n2, 12).ToString();
+            double result = n1 + n2;
+            return result.ToString("0.##########");
         }
         private string Rest()
         {
             string[] numbers = TxtBoxResult.Text.Split("-");
             double.TryParse(numbers[0], out double n1);
             double.TryParse(numbers[1], out double n2);
-            return Math.Round(n1 - n2, 12).ToString();
+            return Math.Round(n1 - n2).ToString();
         }
         private string Mult()
         {
             string[] numbers = TxtBoxResult.Text.Split("*");
             double.TryParse(numbers[0], out double n1);
             double.TryParse(numbers[1], out double n2);
-            return Math.Round(n1 * n2, 12).ToString();
+            return Math.Round(n1 * n2).ToString();
         }
         private string Div()
         {
             string[] numbers = TxtBoxResult.Text.Split("/");
             double.TryParse(numbers[0], out double n1);
             double.TryParse(numbers[1], out double n2);
-            return Math.Round(n1 / n2, 12).ToString();
+            return Math.Round(n1 / n2).ToString();
+        }
+        private string Porcent()
+        {
+            string[] numbers = TxtBoxResult.Text.Split("%");
+            double.TryParse(numbers[0], out double n1);
+            double.TryParse(numbers[1], out double n2);
+            return Math.Round(n1 * n2 / 100).ToString();
         }
     }
 }
