@@ -14,8 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace CALCULADORA
-{
-    /// <summary>
+{    /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
@@ -24,7 +23,6 @@ namespace CALCULADORA
         {
             InitializeComponent();
         }
-
         private void ButtonN0_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -37,7 +35,6 @@ namespace CALCULADORA
                 throw (new Exception("ERROR"));
             }
         }
-
         private void BtnN1_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -50,7 +47,6 @@ namespace CALCULADORA
                 throw (new Exception("ERROR"));
             }
         }
-
         private void BtnN2_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -63,7 +59,6 @@ namespace CALCULADORA
                 throw (new Exception("ERROR"));
             }
         }
-
         private void BtnN3_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -76,7 +71,6 @@ namespace CALCULADORA
                 throw (new Exception("ERROR"));
             }
         }
-
         private void BtnN4_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -89,7 +83,6 @@ namespace CALCULADORA
                 throw (new Exception("ERROR"));
             }
         }
-
         private void BtnN5_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -102,7 +95,6 @@ namespace CALCULADORA
                 throw (new Exception("ERROR"));
             }
         }
-
         private void BtnN6_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -115,7 +107,6 @@ namespace CALCULADORA
                 throw (new Exception("ERROR"));
             }
         }
-
         private void BtnN7_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -128,7 +119,6 @@ namespace CALCULADORA
                 throw (new Exception("ERROR"));
             }
         }
-
         private void BtnN8_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -141,7 +131,6 @@ namespace CALCULADORA
                 throw (new Exception("ERROR"));
             }
         }
-
         private void BtnN9_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -154,30 +143,19 @@ namespace CALCULADORA
                 throw (new Exception("ERROR"));
             }
         }
-
         private void BtnDot_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                string valor = ".";
-                TxtBoxResult.Text += valor;
+                char valor = '.';
+                TxtBoxResult.Text += valor.ToString();
             }
             catch (Exception)
             {
+
                 throw (new Exception("ERROR"));
             }
-            //try
-            //{
-            //    char valor = '.';
-            //    TxtBoxResult.Text += valor.ToString();
-            //}
-            //catch (Exception)
-            //{
-
-            //    throw (new Exception("ERROR"));
-            //}
         }
-
         private void BtnBorrarN_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -197,7 +175,6 @@ namespace CALCULADORA
                 throw (new Exception("ERROR"));
             }
         }
-
         private void BtnBorrar_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -210,7 +187,6 @@ namespace CALCULADORA
                 throw (new Exception("ERROR"));
             }
         }
-
         private void BtnSuma_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -262,10 +238,8 @@ namespace CALCULADORA
         private void BtnPorcent_Click(object sender, RoutedEventArgs e)
         {
             if (double.TryParse(TxtBoxResult.Text, out double Value))
-            {
-                // Calcula el porcentaje (por ejemplo, 2% = 0.02)
+            {                // Calcula el porcentaje (por ejemplo, 2% = 0.02)
                 double porcentage = Value * 1 / 100;
-
                 // Actualiza el valor de la calculadora con el resultado del porcentaje
                 TxtBoxResult.Text = porcentage.ToString();
             }
@@ -363,8 +337,7 @@ namespace CALCULADORA
             string[] numbers = TxtBoxResult.Text.Split("+");
             double.TryParse(numbers[0], out double n1);
             double.TryParse(numbers[1], out double n2);
-            double result = n1 + n2;
-            return result.ToString("0.##########");
+            return Math.Round(n1 + n2).ToString();
         }
         private string Rest()
         {
@@ -396,6 +369,7 @@ namespace CALCULADORA
         }
     }
 }
+
 //            try
 //            {
 //                Button button = (Button)sender;
@@ -415,8 +389,6 @@ namespace CALCULADORA
 //                throw new Exception("Sucedio un error" + ex.Message);
 //            }
 //        }
-
-
 //            private bool IsNumber(string Num)
 
 //            //Metodos auxiliares
@@ -427,7 +399,6 @@ namespace CALCULADORA
 //                //}
 //                //return false;
 //            }
-
 //            private void HandleNumbers(String value)
 //            {
 //                if
@@ -440,7 +411,6 @@ namespace CALCULADORA
 //                    Screen.Text += value;
 //                }
 //            }
-
 //        private bool IsOperator(string possibleOperators)
 //        {
 //            /*if(possibleOperators == "+" || possibleOperators == "-" || possibleOperators == "*" || possibleOperators == "/") */
@@ -449,7 +419,6 @@ namespace CALCULADORA
 //            }
 //            return false;
 //        }
-
 //        private void HandleOperator (string value)
 //        {
 //            if (!String.IsNullOrEmpty(Screen.Text))
